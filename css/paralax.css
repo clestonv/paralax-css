@@ -24,9 +24,14 @@ p {
 /** Efeito Parallax
 ----------------------------*/
 .caixa1, .caixa2, .caixa3, .caixa4 {
-    border: 1px solid red;
+    position: relative;
+    border: 4px solid rgb(116, 113, 113);
     height: 100%;
     opacity: 0.8;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 .caixa1 {
     background-image: url(../imagens/imagem1.jpg);
@@ -42,4 +47,22 @@ p {
 
 .caixa4 {
     background-image: url(../imagens/imagem4.jpg);
+}
+
+.conteudo-titulo {
+    position: absolute;
+    left: 0;
+    top: 45%;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.conteudo-titulo span.titulo {
+    color: #FFF;
+    background-color: #111;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 5px;
+    border-radius: 5px;
 }
