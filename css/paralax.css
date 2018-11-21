@@ -17,12 +17,29 @@ h3 {
     text-align: center;
 }
 
+p {
+    margin-bottom: 20px;
+}
+
 /** Efeito Parallax
 ----------------------------*/
-.caixa1, .caixa2 {
+.caixa1, .caixa2, .caixa3, .caixa4 {
     border: 1px solid red;
     height: 100%;
+    opacity: 0.8;
 }
 .caixa1 {
     background-image: url(../imagens/imagem1.jpg);
+}
+
+.caixa2 {
+    background-image: url(../imagens/imagem2.jpg);
+}
+
+.caixa3 {
+    background-image: url(../imagens/imagem3.jpg);
+}
+
+.caixa4 {
+    background-image: url(../imagens/imagem4.jpg);
 }
